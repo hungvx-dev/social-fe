@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "Templates/*": ["src/_components/*"],
+      "Assets/*": ["src/_assets/*"],
+      "@/*": ["src/*"],
+    },
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "target": "es6"
+  },
+  "include": ["src/**/*", "server.js",],
+  "exclude": ["node_modules"]
+}

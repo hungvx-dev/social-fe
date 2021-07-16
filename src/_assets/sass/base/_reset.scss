@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $softness-dark-9;
+}
+
+ul {
+  list-style: none;
+  padding-left: unset;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+  :-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+button {
+  outline: 0;
+  cursor: pointer;
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
+input {
+  outline: 0;
+  &:-webkit-autofill,
+  -webkit-autofill:hover,
+  -webkit-autofill:focus,
+  -webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+}
+
+.feedback-error {
+  font-size: 75%;
+  color: $passion;
+}
