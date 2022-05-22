@@ -13,7 +13,6 @@ import routes from './routes'
 import 'Assets/sass/main.scss'
 import { SocketWrapper } from './_layouts/Socket'
 import 'react-toastify/dist/ReactToastify.css'
-// import 'Assets/sass/index.scss'
 
 const App = () => (
   <Provider store={store}>
